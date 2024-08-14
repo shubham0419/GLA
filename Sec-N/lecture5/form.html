@@ -6,7 +6,7 @@
   <title>Document</title>
 </head>
 <body>
-  <form >
+  <!-- <form method="get">
     <label for="username">Full Name</label>
     <input type="text" required name="userName" id="username" placeholder="Shubham"><br>
     <label for="useremail">Email</label>
@@ -19,10 +19,25 @@
 
     <label for="userPass">Password</label>
     <input type="password" required name="userPass" minlength="6" id="userPass" placeholder="******"><br>
-    <button type="submit">Submit</button><br>
+    <button type="submit">Submit</button><br> 
     <input type="submit" value="Submit form">
+  </form> -->
 
+  <form method="post">
+    <label for="username">Full Name</label>
+    <input type="text" required name="userName" id="username" placeholder="Shubham"><br>
+    <label for="useremail">Email</label>
+    <input type="email" name="userEmail" id="useremail" placeholder="shubham@gmail.com"><br>
+    <h4>Gender</h4>
+    <label for="male">Male</label>
+    <input type="radio" name="gender" value="male" id="male"><br>
+    <label for="female">Female</label>
+    <input type="radio" name="gender" value="female" id="female"><br>
 
+    <label for="userPass">Password</label>
+    <input type="password" required name="userPass" minlength="6" id="userPass" placeholder="******"><br>
+    <button type="submit">Submit</button><br> 
+    <input type="submit" value="Submit form">
   </form>
 </body>
 </html>
