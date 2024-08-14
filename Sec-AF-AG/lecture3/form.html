@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>User form</legend>
+        <fieldset>
+          <legend>User Information</legend>
+          <label for="name">Name: </label>
+          <input
+            id="name"
+            type="text"
+            name="user"
+            required
+            minlength="4"
+            maxlength="16"
+          />
+          <br />
+          <br />
+          <label for="email">email: </label>
+          <input id="email" name="userEmail" type="email" />
+          <br />
+          <br />
+          <label for="">number: </label>
+          <input type="number" name="userNumber" id="number" min="5" max="10" />
+        </fieldset>
+
+        <fieldset>
+          <legend>General Questions</legend>
+          <h4>Radio Input</h4>
+          <h5>This is question 1</h5>
+          <input type="radio" name="q1" value="option 1" id="" />
+          <label for="">option 1</label>
+
+          <input type="radio" name="q1" value="OPTION 2" id="" />
+          <label for="">option 2</label>
+
+          <input type="radio" name="q1" value="option 3" id="" />
+          <label for="">option 3</label>
+          <br /><br />
+          <select name="dropdown" id="">
+            <option value="opt. 1">Option 1</option>
+            <option value="opt. 2">Option 2</option>
+            <option value="opt. 3">Option 3</option>
+          </select>
+          <!-- 
+    <h5>This is question 2</h5>
+    <input type="radio" name="q2" id="">
+    <label for="">option 1</label>
+
+    <input type="radio" name="q2" id="">
+    <label for="">option 2</label>
+
+    <input type="radio" name="q2" id="">
+    <label for="">option 3</label> -->
+        </fieldset>
+        <br />
+        <br />
+        <button>submit</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
