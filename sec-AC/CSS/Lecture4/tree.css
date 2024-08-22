@@ -1,0 +1,40 @@
+
+/* chaining of child */
+#hero>div>p>strong{
+  color: red;
+}
+/* child selector + decendant */
+#hero>div>p strong{
+  color: blue;
+}
+
+#first+li{
+  color: red;
+}
+/* Adjacent sibling */
+#first~li{
+  color: green;
+}
+
+/* pseudo selectors */
+p:nth-of-type(odd){
+  color: red;
+}
+
+p:nth-of-type(even){
+  color: green;
+}
+
+p:nth-of-type(3n+1){
+  color: blue;
+}
+
+
+#pseudo p:nth-of-type(5){
+  color: orange;
+}
+
+/* chaining of nth of type in terms of decendant */
+#pseudo p:nth-of-type(2) strong:nth-of-type(1){
+  color: red;
+}
