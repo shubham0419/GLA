@@ -1,0 +1,18 @@
+/* Universal Selector */
+*{
+  border:2px solid peru;
+}
+
+/* tag Selector */
+article{
+  color: blueviolet;
+}
+
+/* Id Selector */
+#article4{
+  color: green;
+}
+/* class Selector */
+.same{
+  background-color: black;
+}
