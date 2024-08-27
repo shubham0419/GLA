@@ -1,0 +1,24 @@
+*{
+  border: 2px solid black;
+}
+
+h2{
+  color: red;
+}
+
+h2{
+  color: green;
+}
+
+#center{
+  color: yellowgreen;
+  background-color: black;
+}
+
+.group1{
+  background-color: greenyellow;
+}
+/* Attribute Selector */
+input[type="text"]{
+  background-color: yellow;
+}

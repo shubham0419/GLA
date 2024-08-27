@@ -1,0 +1,17 @@
+/* *{
+  border: 2px solid black;
+} */
+
+.group1{
+  color: blueviolet;
+}
+
+/* input[type="text"]{
+  background-color: black;
+  color: white;
+} */
+
+input[name="name"]{
+  background-color: black;
+  color: white;
+}
