@@ -1,0 +1,9 @@
+/* #one>article:nth-of-type(1) strong{
+  color: red;
+} */
+
+div:nth-of-type(1)>article:nth-of-type(1) strong{
+  color: red;
+} 
+
+

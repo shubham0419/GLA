@@ -1,7 +1,7 @@
 /* Universal Selector */
-*{
+/* *{
   border:2px solid peru;
-}
+} */
 
 /* tag Selector */
 article{
@@ -15,4 +15,13 @@ article{
 /* class Selector */
 .same{
   background-color: black;
+}
+
+/* Attribue selector */
+/* input[type="text"]{
+  background-color: blue;
+} */
+
+input[name="userName"]{
+  background-color: green;
 }
