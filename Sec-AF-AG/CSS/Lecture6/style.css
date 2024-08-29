@@ -1,0 +1,65 @@
+/* child combinator */
+p>strong{
+  color: blue;
+}
+/* decendant  */
+article strong{
+  color: green;
+}
+
+/* next sibling */
+p+ul{
+  color: chocolate;
+}
+
+/* adjacent siblings */
+h1~p{
+  color: steelblue;
+}
+
+/* multiple selector */
+/* h1, p, .className, #idName {
+
+} */
+
+/* Pseudo selectors */
+h2:hover{
+  color: blue;
+}
+
+p:active{
+  color: sandybrown;
+}
+
+button:focus,input:focus{
+  background-color: rgb(138, 211, 235);
+}
+
+/* nth of type */
+#container>p:nth-of-type(2){
+  color: rgb(89, 0, 255);
+}
+
+#container>p:nth-of-type(odd){
+  color: orange;
+}
+
+#container>p:nth-of-type(3n+1){
+  text-decoration: line-through;
+}
+
+h3::after{
+  content: " selector";
+  color: green;
+}
+
+h3::before{
+  content: "This is ";
+  color: green;
+}
+
+
+
+
+
+

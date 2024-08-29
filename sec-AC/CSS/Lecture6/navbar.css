@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  background-color: black;
+}
+header #logo{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+header>nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px 0 50px;
+}
+
+nav>ul{
+  display: flex;
+  gap: 10px;
+}
+
+nav>ul>li{
+  list-style: none;
+}
+
+nav>ul>li>a{
+  color: violet;
+  text-decoration: none;
+  font-size: 18px;
+}

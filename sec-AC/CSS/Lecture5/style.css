@@ -1,0 +1,59 @@
+#container>p:nth-of-type(5){
+  color: red;
+}
+
+#container>p:nth-of-type(even){
+  color: orange;
+}
+
+#container>p:nth-of-type(3n+2){
+  color: steelblue;
+}
+
+h2::first-letter{
+  color: red;
+  font-size: 48px;
+}
+
+h2+p::first-line{
+  color: lightgreen;
+}
+
+h2::after{
+  content: " Selector";
+  color: blueviolet;
+}
+
+h2::before{
+  content: "this is ";
+  color: blueviolet;
+}
+
+
+#box{
+  width: 50%;
+  /* background-color: aquamarine; */
+  border-style: solid;
+  border-color: red;
+  border-top: 0;
+  border-right: 0;
+  border-width: 5px;
+  overflow: auto;
+  border-radius: 10px;
+  margin-left: 100px;
+  padding-left: 100px;
+}
+
+/*  */
+#div{
+  height: 100px;
+  background-color: aquamarine;
+  display: inline-block;
+}
+
+a:visited{
+  /* color: orange; */
+  background-color: black;
+}
+
+

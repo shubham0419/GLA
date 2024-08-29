@@ -1,0 +1,40 @@
+/* h1{
+  background-color: burlywood;
+  height: 200px;
+  width: 300px;
+  width: 40%;
+} */
+
+#container{
+  background-color: cadetblue;
+  /* width: 40%; */
+  width: 200px;
+  height: 200px;
+  overflow: auto;
+  /* border-style: solid;
+  border-color: blue;
+  border-width: 5px; */
+  border: 3px solid blue;
+  /* border-radius: 50%; */
+  /* margin-left: 100px; */
+  padding-top: 100px;
+  /* to center element horizontally */
+  margin: auto;
+}
+/* to remove scrollbar */
+#container::-webkit-scrollbar{
+  width: 0;
+}
+
+#container2{
+  height: 200px;
+  width: 200px;
+  margin-left: 100px;
+  border: 2px solid black;
+  display: inline-block;
+}
+
+span{
+  display: block;
+}
+
