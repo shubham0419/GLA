@@ -1,0 +1,23 @@
+h1{
+  color: violet;
+}
+/* id selector */
+#special{
+  background-color: aquamarine;
+}
+/* class selector */
+.group1{
+  background-color: violet;
+}
+/* Universal selctor */
+*{
+  border: 2px solid black;
+}
+/* attribute selector */
+input[type="text"]{
+  background-color: aqua;
+}
+
+input[name="num"]{
+  background-color: blueviolet;
+}
