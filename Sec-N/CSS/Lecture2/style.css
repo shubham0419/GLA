@@ -1,0 +1,37 @@
+/* child */
+#container>article>p{
+  color: green;
+}
+
+/* decendant */
+#container p{
+  color: blue;
+}
+/* next sibling */
+a+p{
+  color: peru;
+}
+/* adjacent siblings */
+h1~a{
+  color: red;
+}
+
+input:focus{
+  background-color: burlywood;
+}
+
+h2:hover{
+  color: red;
+}
+
+#container>p:nth-of-type(5){
+  color: red;
+}
+
+#container>p:nth-of-type(even){
+  color: aqua;
+}
+
+#container>p:nth-of-type(4n-2){
+  color: violet;
+}

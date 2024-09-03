@@ -10,9 +10,9 @@ h1{
   background-color: violet;
 }
 /* Universal selctor */
-*{
+/* *{
   border: 2px solid black;
-}
+} */
 /* attribute selector */
 input[type="text"]{
   background-color: aqua;
@@ -21,3 +21,52 @@ input[type="text"]{
 input[name="num"]{
   background-color: blueviolet;
 }
+
+/* combinators */
+/* child  */
+
+/* article>p{
+  color:lightgreen;
+} */
+
+article>span>strong{
+  color:lightgreen;
+}
+
+/* article strong{
+  color: red;
+} */
+
+article p strong{
+  color: red;
+}
+/* pseudo class selector */
+h1:hover{
+  color: blueviolet;
+}
+
+h2:active{
+  color: red;
+}
+
+button:focus{
+  background-color: brown;
+}
+
+input[type="number"]:focus{
+  background-color: aqua;
+}
+/* Pseudo element selector */
+#container>p:nth-of-type(5){
+  color: cadetblue;
+}
+
+#container>p:nth-of-type(even){
+  color: rgb(246, 135, 135);
+}
+
+#container>p:nth-of-type(3){
+  color: green;
+  background-color: lightblue;
+}
+

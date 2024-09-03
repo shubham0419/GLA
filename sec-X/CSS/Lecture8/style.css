@@ -1,0 +1,16 @@
+span{
+  border: 2px solid black;
+  display: block;
+}
+
+div:nth-of-type(1){
+  border: 2px solid black;
+  display: inline;
+}
+
+#special{
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+  display: inline-block;
+}

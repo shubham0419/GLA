@@ -1,0 +1,32 @@
+section>div{
+  height: 300px;
+  /* width: 600px; */
+  /* width: 90vw; */
+  /* width: 90%; */
+  width: 300px;
+  background-color: orange;
+  /* border-style: solid;
+  border-color: blue;
+  border-width: 5px; */
+  border: 5px solid blue;
+  /* border-radius: 40px; */
+  border-radius: 50%;
+  margin: auto;
+}
+
+section{
+  width: 800px;
+  background-color: red;
+}
+
+#special{
+  height: 200px;
+  width: 300px;
+  border: 2px solid black;
+  display: inline-block;
+}
+
+span{
+  display: block;
+  border: 2px solid;
+}
