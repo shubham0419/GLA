@@ -1,53 +1,42 @@
-
-span{
-  height: 200px;
-  width: 200px;
-  border: 2px solid black;
-  display: inline-block;
-}
-
-span:nth-of-type(2){
-  display: block;
-}
-
 #relative{
-  border: 2px solid black;
+  border: 2px solid red;
+  padding: 10px;
 }
 
 #relative>div{
+  border: 2px solid black;
   height: 100px;
   width: 100px;
-  border: 2px solid red;
   display: inline-block;
 }
 
 #relative>div:nth-of-type(2){
   background-color: violet;
   position: relative;
-  left: 100px;
-  right: 100px;
-  top: 30px;
+  top: 10px;
   bottom: 20px;
+  left: 50px;
+  right: 50px;
 }
 
 #absolute{
-  height: 70vh;
-  width: 90%;
-  border: 2px solid blueviolet;
+  border: 2px solid purple;
+  height: 300px;
   padding: 10px;
   position: relative;
 }
+
 #absolute>div{
-  height: 70%;
-  width: 90%;
-  border: 2px solid red;
+  border: 2px solid rgb(0, 128, 111);
+  height: 200px;
+  padding: 10px;
   position: relative;
 }
 
 #absolute>div>div{
+  border: 2px solid black;
   height: 100px;
   width: 100px;
-  border: 2px solid black;
   display: inline-block;
 }
 
@@ -58,21 +47,14 @@ span:nth-of-type(2){
   right: 0;
 }
 
-#fixed{
+#fixed>div:nth-of-type(3){
   border: 2px solid black;
-}
-
-#fixed>div{
   height: 100px;
   width: 100px;
-  border: 2px solid red;
-  display: inline-block;
-}
-
-#fixed>div:nth-of-type(2){
   background-color: red;
   position: fixed;
-  top: 0;
+  top: 10px;
+  right: 0;
 }
 
 #sticky>p{
