@@ -57,3 +57,20 @@ span:nth-of-type(2){
   top: 0;
   right: 0;
 }
+
+#fixed{
+  border: 2px solid black;
+}
+
+#fixed>div{
+  height: 100px;
+  width: 100px;
+  border: 2px solid red;
+  display: inline-block;
+}
+
+#fixed>div:nth-of-type(2){
+  background-color: red;
+  position: fixed;
+  top: 0;
+}
