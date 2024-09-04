@@ -1,0 +1,45 @@
+
+h1{
+  /* width: 50%; */
+  width: 70vw;
+  background-color: aqua;
+}
+
+#card-box{
+  width: 90vw;
+  margin: 0 auto;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(5,1fr);
+}
+
+#card{
+  height: fit-content;
+  border: 2px rgb(174, 173, 173) solid;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+#card>img{
+  height: 200px;
+  border-radius: 15px;
+}
+
+@media (width<500px)  {
+  h1{
+    font-size: 44px;
+    color:blue;
+  }
+}
+
+@media (width<1380px){
+  #card-box{
+    grid-template-columns: repeat(3,1fr);
+  }
+}
+
+@media (width<480px){
+  #card-box{
+    grid-template-columns: 1fr;
+  }
+}
