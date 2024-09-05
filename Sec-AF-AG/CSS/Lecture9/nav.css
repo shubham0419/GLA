@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  position: fixed;
+  top: 0;
+  background-color: black;
+  width: 100vw;
+}
+
+#logo>img{
+  height: 100px;
+}
+
+header>nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 7% 0 2%;
+}
+
+#nav-items>ul{
+  display: flex;
+  gap: 15px;
+}
+
+#nav-items a{
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+#nav-items a:hover{
+  padding-bottom: 3px;
+  border-bottom: 2px solid white;
+}
+
+#hero{
+  height: 80vh;
+  margin-top: 104px;
+  border: solid red;
+  /* background: linear-gradient(45deg,#e7c6ff,#c8b6ff,#b8c0ff,#bbd0ff); */
+  background-image: url("https://images.unsplash.com/photo-1519751138087-5bf79df62d5b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+}

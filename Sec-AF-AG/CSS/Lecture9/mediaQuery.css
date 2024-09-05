@@ -1,0 +1,19 @@
+h2{
+  color: red;
+  text-align: center;
+  font-size: 60px;
+}
+
+@media (width<1180px){
+  h2{
+    color: blueviolet;
+    border: 2px solid black;
+  }
+}
+
+@media (width<480px){
+  h2{
+    color: rgb(43, 174, 226);
+    border: 0;
+  }
+}

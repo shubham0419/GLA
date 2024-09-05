@@ -1,0 +1,30 @@
+#container{
+  width: 80vw;
+  height: 60vh;
+  border: 2px solid;
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+#container>div{
+  border: 2px solid red;
+}
+
+/* child properties */
+#container>div:nth-of-type(2){
+  background-color: blueviolet;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+#container>div:nth-of-type(5){
+  background-color: greenyellow;
+  grid-column-start: 1;
+  grid-column-end: 2;
+
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
