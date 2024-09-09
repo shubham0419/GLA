@@ -1,0 +1,15 @@
+h1{
+  color: red;
+}
+
+@media (width<1080px){
+  h1{
+    background-color: black;
+  }
+}
+
+@media (width<480px){
+  h1{
+    border: 5px solid red;
+  }
+}

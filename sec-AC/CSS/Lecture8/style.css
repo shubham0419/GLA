@@ -38,6 +38,12 @@ h1:hover{
   border-radius: 15px;
 }
 
+#card span{
+  text-decoration: line-through;
+  padding-right: 5px;
+  color: gray;
+}
+
 @media (width<500px)  {
   h1{
     font-size: 44px;
@@ -45,7 +51,7 @@ h1:hover{
   }
 }
 
-@media (width<1380px){
+@media (width<1080px){
   #card-box{
     grid-template-columns: repeat(3,1fr);
   }

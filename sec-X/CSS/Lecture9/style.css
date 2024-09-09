@@ -59,3 +59,24 @@
   position: absolute;
   right: 50px;
 }
+
+#fixed{
+  /* border: solid; */
+  border: 2px solid black;
+  width: 70vw;
+  height: 100px;
+}
+
+#fixed>div{
+  height: 100px;
+  width: 100px;
+  border: 2px solid red;
+  display: inline-block;
+}
+
+#fixed>div:nth-of-type(3){
+  background-color: aqua;
+  position: fixed;
+  top: 0;
+  right: 100px;
+}
