@@ -11,18 +11,18 @@
   margin: 20px auto;
 }
 
-#card{
+.card{
   max-width: 100%;
   border: 2px solid gray;
   border-radius: 10px;
   padding: 10px;
 }
-#card>img{
+.card>img{
   width: 100%;
   border-radius: 10px;
 }
 
-@media(width<1180px){
+@media(width<1080px){
   #container{
     grid-template-columns: repeat(3,1fr);
   }

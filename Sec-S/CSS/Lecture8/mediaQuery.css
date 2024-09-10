@@ -4,12 +4,18 @@ h1{
 
 @media (width<1080px){
   h1{
+    border: 2px solid red;
+  }
+}
+
+@media (width<720px){
+  h1{
     background-color: black;
   }
 }
 
 @media (width<480px){
   h1{
-    border: 5px solid red;
+    font-size: 48px;
   }
 }
