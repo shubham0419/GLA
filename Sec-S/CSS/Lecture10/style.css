@@ -1,0 +1,20 @@
+*{
+  margin-left: 100px;
+}
+
+#container{
+  width: 200px;
+  height: 200px;
+  background-color: violet;
+  transition-duration: 2s;
+  transition-timing-function: cubic-bezier(0.06, 0.77, 0.7, 0.32)
+}  
+
+#container:hover{
+  /* border-radius: 50%; */
+  background-color: purple;
+  /* transform: scale(1.05); */
+  /* transform: rotateZ(5turn); */
+  /* transform: translateX(-800px); */
+  transform: translate(800px);
+}

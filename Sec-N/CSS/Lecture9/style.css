@@ -1,0 +1,41 @@
+#container{
+  height: 100px;
+  width: 100px;
+  background-color: orange;
+  position: absolute;
+  animation-name: firstAnime;
+  animation-duration: 5s;
+  /* animation-fill-mode: forwards; */
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+  
+}
+
+@keyframes firstAnime {
+  0%{
+    top: 0;
+    left: 0;
+  }
+  25%{
+    top: 0;
+    left: 75%;
+    transform: rotate(360deg);
+    border-radius: 50%;
+  }
+  50%{
+    transform: rotate(360deg);
+    top: 50%;
+    left: 75%;
+  }
+  75%{
+    transform: rotate(360deg);
+    top: 50%;
+    left: 0;
+  }
+  100%{
+    transform: rotate(360deg);
+    top: 0;
+    left: 0;
+  }
+}

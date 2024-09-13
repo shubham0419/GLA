@@ -9,6 +9,7 @@ header{
   background-color: black;
   width: 100vw;
 }
+
 #navbar{
   display: flex;
   align-items: center;
