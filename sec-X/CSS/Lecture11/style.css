@@ -5,16 +5,22 @@
   width: 70vw;
   height: 80vh;
   border: 3px solid white;
+  background: linear-gradient(135deg,#344e41,#3a5a40,#588157,#a3b18a,#dad7cd);
+  background-image: url("../Screenshot\ 2024-07-26\ 163717.png");
+  /* background-repeat: no-repeat; */
+  background-size: cover;
   display: grid;
   grid-template-columns: 1fr 1fr 2fr;
   grid-template-rows: repeat(4,1fr);
   gap: 10px;
   padding: 20px;
 }
+
 #container>div{
   border: 2px solid maroon;
   color: white;
 }
+
 /* #container>div:nth-of-type(3){
   background-color: rgb(1, 1, 97);
   width: 50%;
@@ -39,3 +45,7 @@
   grid-row-start: 4;
   grid-row-end: 5;
 }
+#container>img{
+  width: 100%;
+}
+
