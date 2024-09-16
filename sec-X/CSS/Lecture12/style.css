@@ -1,0 +1,19 @@
+h1{
+  color: red;
+  display: none;
+}
+
+@media (width<1080px){
+  h1{
+    border: 2px solid black;
+  }
+}
+
+@media (width<480px){
+  h1{
+    /* background-color: black;
+    border:10px solid red; */
+    display: block;
+  }
+}
+
