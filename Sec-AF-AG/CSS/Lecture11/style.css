@@ -1,0 +1,94 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+#container{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  animation-name: firstAnim;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  /* animation-fill-mode:forwards; */
+}
+
+@keyframes firstAnim {
+  0%{
+    background-color: red;
+    left: 0;
+    top: 0;
+  }
+  25%{
+    transform: rotate(1turn);
+    border-radius: 50%;
+    background-color: orangered;
+    left: 75%;
+    top:0;
+  }
+  50%{
+    transform: rotate(1turn);
+    background-color: orange;
+    left: 75%;
+    top: 60%;
+  }
+  75%{
+    background-color: rgb(255, 208, 0);
+    left: 0;
+    top: 60%;
+  }
+  100%{
+    background-color: yellow;
+    top: 0;
+    left: 0;
+  }
+} 
+
+#gradient{
+  width: 100vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation-name: gradientChange;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  background: linear-gradient(30deg,#ffdc5e,#ffbf81,#ffa3a5,#ff86c8,#ff69eb);
+}
+#gradient>h2{
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  font-size: 72px;
+  color: white;
+}
+
+#gradient>h2>span{
+  display: inline-block;
+  width: 100%;
+  height: 10px;
+}
+#gradient>h2>span:hover{
+  width: 100%;
+  background-color: white;
+}
+
+@keyframes gradientChange {
+  0%{
+    background: linear-gradient(30deg,#ffdc5e,#ffbf81,#ffa3a5,#ff86c8,#ff69eb);
+  }
+  25%{
+    background: linear-gradient(30deg,#ff69eb,#ffdc5e,#ffbf81,#ffa3a5,#ff86c8);
+  }
+  50%{
+    background: linear-gradient(30deg,#ff86c8,#ff69eb,#ffdc5e,#ffbf81,#ffa3a5);
+  }
+  75%{
+    background: linear-gradient(30deg,#ffa3a5,#ff86c8,#ff69eb,#ffdc5e,#ffbf81);
+  }
+  100%{
+    background: linear-gradient(30deg,#ffbf81,#ffa3a5,#ff86c8,#ff69eb,#ffdc5e,);
+  }
+}
+
