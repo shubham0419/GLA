@@ -8,7 +8,7 @@
   height: 100px;
   position: absolute;
   animation-name: firstAnim;
-  animation-duration: 5s;
+  animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   /* animation-fill-mode:forwards; */
@@ -52,7 +52,7 @@
   justify-content: center;
   align-items: center;
   animation-name: gradientChange;
-  animation-duration: 1s;
+  animation-duration: 15s;
   animation-iteration-count: infinite;
   background: linear-gradient(30deg,#ffdc5e,#ffbf81,#ffa3a5,#ff86c8,#ff69eb);
 }
@@ -68,10 +68,9 @@
   display: inline-block;
   width: 100%;
   height: 10px;
-}
-#gradient>h2>span:hover{
-  width: 100%;
   background-color: white;
+  animation-name: rightSlide;
+  animation-duration: 2s;
 }
 
 @keyframes gradientChange {
@@ -92,3 +91,11 @@
   }
 }
 
+@keyframes rightSlide{
+  0%{
+    width:0;
+  }
+  100%{
+    width: 100%;
+  }
+}
