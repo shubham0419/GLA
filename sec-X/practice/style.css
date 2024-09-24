@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  background-color: black;
+}
+i{
+  color: white;
+  padding: 13px 20px;
+}
+#nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#nav>ul{
+  display: flex;
+}
+#nav>ul>li{
+  padding: 13px 20px;
+  list-style: none;
+}
+
+#nav>ul>li:hover{
+  background-color: gainsboro;
+  color: black;
+}
+#nav>ul>li>a:hover{
+  color: black;
+}
+
+#nav>ul>li>a{
+  color: white;
+  font-size: 24px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-decoration: none;
+}
+
+#background{
+  width: 98vw;
+  height: 95vh;
+  animation-name: carousel;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes carousel {
+  0%{
+    background-image: url(https://www.w3schools.com/w3images/ny.jpg);
+    background-size: cover;
+  }
+  100%{
+    background-image: url(https://www.w3schools.com/w3images/la.jpg);
+    background-size: cover;
+  }
+}

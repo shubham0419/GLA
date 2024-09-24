@@ -17,4 +17,6 @@ let date = "18/09/2024"
 // let cr = date.replace("/","-");
 let cr = date.replaceAll("/","-");
 // let newVal = null;
+const str = "this is a string"
 
+let arrOfStr = str.split(" ")
