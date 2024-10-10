@@ -67,3 +67,4 @@ console.log(random,typeof(arr[index]));
 
 a==10 && console.log(true);
 if(a==10) console.log(true);
+
