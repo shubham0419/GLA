@@ -2,8 +2,8 @@
 
 // var a;
 // let b;
-// // const can't be declared
-// const c;
+// // // const can't be declared
+// // const c;
 
 // var a;
 // // let and const can,t be redeclare or reinitalise
@@ -19,3 +19,6 @@ b = "hii";
 
 const c = 1;
 c = "hii";
+
+
+

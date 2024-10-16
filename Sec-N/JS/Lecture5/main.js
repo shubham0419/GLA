@@ -53,6 +53,23 @@ if((a=="10" || a==="10") && (a==100/10 && a==1000/10)){
   console.log(false);
 }
 
-let userAns = prompt("what is your age");
+let d = prompt("enter number");
+// take the number by prompt
+// Q check a number is +ve or -ve or zero or string
 
-console.log(typeof(userAns),userAns);
+isNaN(d)?d<0?console.log("-ve"):d>0?console.log("+ve")
+:console.log("zero"):console.log("string");
+
+
+
+const arr = [3,"4",5,"6",7,"8",9,10,11,"12"];
+// Q generate a random number number b/w 3 to 12 and check 
+// what is type of that number in array  
+
+let r = Math.round(Math.random()*(12-3)) + 3;
+
+
+
+
+
+
