@@ -68,3 +68,4 @@ console.log(a); // undefine
 var a = 20;
 let ans4 = arrow(a,b);
 console.log(ans4); // 30
+
