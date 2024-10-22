@@ -149,4 +149,6 @@ console.log(higher(cb));
 //   return innerFunc2();
 // }
 
+
 // console.log(higher(cb));
+
