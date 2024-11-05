@@ -37,6 +37,9 @@ const fun2 = function (){
 fun2();
 // arrow functions 
 
-const arrow = ()=>{
-  
+const arrow = (a,b)=>{
+  console.log("hiiii");
+  return a+b;
 }
+
+arrow(5,9);
