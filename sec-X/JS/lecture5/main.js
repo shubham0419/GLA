@@ -11,7 +11,6 @@ function higher(cb){
 }
 
 // console.log(higher(square));
-
 let arr = [1,2,3,4,5,6,7,8,9];
 // map
 function sq(x){
@@ -45,5 +44,6 @@ console.log(oddArr);
 arr = [1,2,3,4,5,6,7,8,9]
 let sum = arr.reduce((ele,accum)=>{
   return accum+ele;
+
 },0);
 console.log(sum);

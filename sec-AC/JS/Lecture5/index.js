@@ -46,7 +46,6 @@
 // console.log(e);
 
 // hoisting Questions
-
 // let ans = fun(a,8);
 // console.log(ans); // -> error,
 // console.log(a); // -> error, undefine
