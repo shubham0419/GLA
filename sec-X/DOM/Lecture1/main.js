@@ -35,11 +35,10 @@ console.log(para);
 
 console.log(para.parentElement);
 console.log(para.parentElement.parentElement);
-console.log(para.nextSibling.nextSibling);
+console.log(para.nextElementSibling);
 console.log(para.children);
 
 para.innerText = "hiiii by js";
-
 h1ById.className = "heading2"
 
 console.log(h1ById);
