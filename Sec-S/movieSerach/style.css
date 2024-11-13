@@ -1,0 +1,34 @@
+
+.topContainer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.nightMode{
+  background-color: #002233;
+}
+
+#container{
+  width: 90vw;
+  margin:  10px auto;
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 15px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.movieContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  border-radius: 10px;
+  gap:2px;
+  padding: 5px;
+}
+
+.banner{
+  width: 100%;
+  border-radius: 10px;
+}
