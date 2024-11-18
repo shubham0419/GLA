@@ -1,0 +1,18 @@
+#movies-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  width: 90vw;
+  margin: 10px auto;
+}
+
+.singlMovie{
+  width: 100%;
+  padding: 5px;
+  border: 2px solid gainsboro;
+  border-radius: 10px;
+}
+
+.banner{
+  width: 100%;
+}
