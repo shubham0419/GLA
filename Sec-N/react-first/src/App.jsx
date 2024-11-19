@@ -1,14 +1,16 @@
 import './App.css';
+import Navbar from './components/Navbar';
 
 function App() {
-  let count  = 0;
-
-  const incriment = ()=>{
-    count++;
-  }
+  let name = "shubham";
 
   return (
-    <div>Hiiiii <span>this is {name}</span></div>
+    <div>
+    <Navbar/>
+      Hiiiii 
+      <span className='bg-inherit'>
+      this is {name}</span>
+    </div>
   )
 }
 
