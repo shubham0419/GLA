@@ -1,6 +1,17 @@
 const form = document.getElementById("movieForm");
 const movieContainer = document.getElementById("container");
 
+// localStorage.setItem("movie","spiderman");
+
+let movies = localStorage.getItem("movies");
+let moviesArr = JSON.parse(movies);
+
+window.addEventListener("load",(e)=>{
+  if(moviesArr.length>0){
+    createMvieElement(moviesArr);
+  }
+})
+
 const createMvieElement = (movies)=>{
   for(let movie of movies){
     const div = document.createElement("div");
@@ -22,6 +33,8 @@ const createMvieElement = (movies)=>{
 const getMovies = async (search)=>{
   let res = await fetch(`http://api.tvmaze.com/search/shows?q=${search}`);
   let data = await res.json();
+  let dataStr = JSON.stringify(data);
+  localStorage.setItem("movies",dataStr);
   createMvieElement(data);
 }
 
