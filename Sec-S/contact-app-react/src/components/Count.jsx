@@ -8,7 +8,8 @@ const Count = () => {
     console.log(count);
   }
 
-
+  console.log(count,"outer");
+  
   return (
     <div className='m-auto p-2 flex gap-2 items-center'>
       Count : {count}

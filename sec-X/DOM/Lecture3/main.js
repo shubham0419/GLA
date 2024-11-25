@@ -43,5 +43,6 @@ const getJokes = async ()=>{
   createJoke(data);
 };
 
+// 19 , 12 , 6 , 17 , 32, 33, 59
 getJokes();
 

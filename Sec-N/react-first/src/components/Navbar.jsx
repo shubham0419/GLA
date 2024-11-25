@@ -1,11 +1,11 @@
 import "./Navbar.css"
 import React from 'react'
 
-const Navbar = ()=>{
+const Navbar = ({userName,count})=>{
 
   return (
     <div className="navbar">
-      Hii from navbar
+      Hii from {userName} - {count}
     </div>
   )
 }

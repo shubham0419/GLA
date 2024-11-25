@@ -5,16 +5,15 @@ import './App.css'
 import Navbar, { Navbar2 } from './components/Navbar'
 
 function App() {
-  const name = "shubham"
+  const fullName = "shubham"
   let count = 0;
   return (
     <div>
-    <Navbar name={name} count={count}/>
-    <Navbar2/>
-    <h1>Hello {name}</h1>
-      hiiiii {name}
+    <Navbar name={fullName} count={count} val={"hiii"}/>
+    {/* <Navbar2/> */}
+    <h1>Hello {count}</h1>
     </div>
   )
 }
 
-export default App
+export default App;

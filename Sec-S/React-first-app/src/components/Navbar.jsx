@@ -1,7 +1,8 @@
 import React from "react";
 import NavbarList from "./NavbarList";
+import "./Navbar.css"
 
-const Navbar = ({name,count})=>{
+const Navbar = ({name,count,val})=>{
   //{name} is a prop
   return (
     <div>
