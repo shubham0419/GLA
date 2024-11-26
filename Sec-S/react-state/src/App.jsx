@@ -27,7 +27,7 @@ function App() {
       {/* hiii {count2}
       <button onClick={(e)=>{incriment()}}>Click</button> */}
       <Navbar setter={setCount}/>
-      hiii {count}
+        hiii {count}
       {/* <button onClick={(e)=>{setCount(count+1)}}>Click</button> */}
       <button onClick={() => setCount((prev)=>{return prev+1})}>Click</button>
     </>
