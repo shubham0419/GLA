@@ -4,7 +4,6 @@ import { useEffect } from 'react';
 import Profile from './Profile';
 
 const Search = () => {
-
   const [search,setSearch] = useState("shubham0419");
   const [userData,setUserData] = useState({});
 
